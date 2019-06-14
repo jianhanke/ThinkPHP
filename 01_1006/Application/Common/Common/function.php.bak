@@ -1,0 +1,5 @@
+<?php 
+
+function gbkutf8(){
+	echo 'gbkutf8';
+}

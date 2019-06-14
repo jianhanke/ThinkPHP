@@ -1,0 +1,93 @@
+[ 2019-02-27T20:14:01+08:00 ] 127.0.0.1 /index.php/Admin/Test/test3
+ERR: syntax error, unexpected '}'
+
+[ 2019-02-27T20:14:27+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:14:27+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:14:29+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:14:29+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:14:29+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:14:44+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: syntax error, unexpected ','
+
+[ 2019-02-27T20:14:55+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: syntax error, unexpected ','
+
+[ 2019-02-27T20:16:41+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: syntax error, unexpected '}'
+
+[ 2019-02-27T20:16:42+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: syntax error, unexpected '}'
+
+[ 2019-02-27T20:16:50+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:16:52+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:16:57+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:16:57+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:16:58+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:16:58+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:16:58+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:16:58+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:16:58+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:16:58+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:16:59+08:00 ] 127.0.0.1 /index.php/Admin/Test/3
+ERR: 非法操作:3
+
+[ 2019-02-27T20:18:29+08:00 ] 127.0.0.1 /index.php/Admin/Test/test3
+ERR: syntax error, unexpected '__MODULE__' (T_STRING)
+
+[ 2019-02-27T20:18:33+08:00 ] 127.0.0.1 /index.php/Admin/Test/test3
+ERR: syntax error, unexpected '__MODULE__' (T_STRING)
+
+[ 2019-02-27T20:20:30+08:00 ] 127.0.0.1 /index.php/Admin/Test/test3
+ERR: syntax error, unexpected '}'
+
+[ 2019-02-27T20:20:46+08:00 ] 127.0.0.1 /index.php/Admin/Test/test3
+ERR: syntax error, unexpected '}'
+
+[ 2019-02-27T20:31:34+08:00 ] 127.0.0.1 /index.php/Admin/Test/test3
+ERR: syntax error, unexpected '}'
+
+[ 2019-02-27T20:31:34+08:00 ] 127.0.0.1 /index.php/Admin/Test/test3
+ERR: syntax error, unexpected '}'
+
+[ 2019-02-27T20:31:35+08:00 ] 127.0.0.1 /index.php/Admin/Test/test3
+ERR: syntax error, unexpected '}'
+
+[ 2019-02-27T20:32:05+08:00 ] 127.0.0.1 /index.php/Admin/Test/test3
+ERR: syntax error, unexpected '}'
+
+[ 2019-02-27T20:32:06+08:00 ] 127.0.0.1 /index.php/Admin/Test/test3
+ERR: syntax error, unexpected '}'
+
+[ 2019-02-27T20:33:01+08:00 ] 127.0.0.1 /index.php/Admin/Test/test3
+ERR: syntax error, unexpected '}'
+

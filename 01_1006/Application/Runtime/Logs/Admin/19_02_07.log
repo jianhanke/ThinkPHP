@@ -1,0 +1,2640 @@
+[ 2019-02-07T12:13:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T12:13:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T12:20:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T12:20:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T13:04:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T13:04:52+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T13:04:57+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2019-02-07T13:05:00+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2019-02-07T13:05:02+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2019-02-07T13:05:05+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2019-02-07T13:05:07+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2019-02-07T13:05:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T13:05:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T13:05:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T13:05:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T13:05:28+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2019-02-07T13:07:20+08:00 ] 127.0.0.1 /index.php/Admin/Dept/add.html
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2019-02-07T13:09:14+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2019-02-07T13:09:16+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2019-02-07T13:09:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T13:09:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T13:09:58+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2019-02-07T13:10:43+08:00 ] 127.0.0.1 /index.php/Admin/Dept/showList.html
+ERR: SQLSTATE[HY000] [2002] ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2019-02-07T13:55:54+08:00 ] 127.0.0.1 /index.php/Admin/Test/test35
+ERR: 1146:Table 'db_oa.sp_szphp' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_szphp`
+
+[ 2019-02-07T14:11:39+08:00 ] 127.0.0.1 /index.php/Admin/Test/test36
+ERR: 非法操作:test36
+
+[ 2019-02-07T14:14:10+08:00 ] 127.0.0.1 /index.php/Admin/Test/test36
+ERR: syntax error, unexpected 'session' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2019-02-07T14:14:13+08:00 ] 127.0.0.1 /index.php/Admin/Test/test36
+ERR: syntax error, unexpected 'session' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2019-02-07T14:15:17+08:00 ] 127.0.0.1 /index.php/Admin/Test/test36
+ERR: syntax error, unexpected 'session' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2019-02-07T14:16:24+08:00 ] 127.0.0.1 /index.php/Admin/Test/test36
+ERR: syntax error, unexpected 'session' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2019-02-07T14:16:47+08:00 ] 127.0.0.1 /index.php/Admin/Test/test36
+ERR: syntax error, unexpected 'session' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2019-02-07T14:17:06+08:00 ] 127.0.0.1 /index.php/Admin/Test/test36
+ERR: syntax error, unexpected 'session' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2019-02-07T14:17:20+08:00 ] 127.0.0.1 /index.php/Admin/Test/test36
+ERR: syntax error, unexpected 'session' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+
+[ 2019-02-07T14:51:02+08:00 ] 127.0.0.1 /index.php/Admin/Test/test38
+ERR: Call to undefined function Admin\Controller\gbkutf8()
+
+[ 2019-02-07T17:26:49+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:27:15+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:27:17+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:27:18+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:27:18+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:27:18+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:27:18+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:27:18+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:27:18+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:27:19+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:33:44+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:34:12+08:00 ] 127.0.0.1 /index.php/Admin/Test/test39
+ERR: Call to undefined function Admin\Controller\getInfo()
+
+[ 2019-02-07T17:42:06+08:00 ] 127.0.0.1 /index.php/Admin/Test/test40
+ERR: Call to undefined function Admin\Controller\sayhello()
+
+[ 2019-02-07T17:42:20+08:00 ] 127.0.0.1 /index.php/Admin/Test/test40
+ERR: Call to undefined function Admin\Controller\sayhello()
+
+[ 2019-02-07T17:42:20+08:00 ] 127.0.0.1 /index.php/Admin/Test/test40
+ERR: Call to undefined function Admin\Controller\sayhello()
+
+[ 2019-02-07T17:42:21+08:00 ] 127.0.0.1 /index.php/Admin/Test/test40
+ERR: Call to undefined function Admin\Controller\sayhello()
+
+[ 2019-02-07T17:42:21+08:00 ] 127.0.0.1 /index.php/Admin/Test/test40
+ERR: Call to undefined function Admin\Controller\sayhello()
+
+[ 2019-02-07T17:42:22+08:00 ] 127.0.0.1 /index.php/Admin/Test/test40
+ERR: Call to undefined function Admin\Controller\sayhello()
+
+[ 2019-02-07T18:07:31+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:08:12+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:09:19+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:11:48+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:12:54+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:14:07+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:14:12+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:15:36+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:15:36+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:15:37+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:15:37+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:15:37+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:15:38+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:15:39+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:15:39+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:18:28+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:18:30+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:18:31+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:18:49+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:18:59+08:00 ] 127.0.0.1 /index.php/Admin/Test/test42
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:19:21+08:00 ] 127.0.0.1 /index.php/Admin/Test/test42
+ERR: 非法操作:test42
+
+[ 2019-02-07T18:19:28+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: Call to undefined function Think\imagecreate()
+
+[ 2019-02-07T18:22:02+08:00 ] 127.0.0.1 /index.php/Admin/Test/test42
+ERR: 非法操作:test42
+
+[ 2019-02-07T18:28:21+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: syntax error, unexpected ';', expecting ')'
+
+[ 2019-02-07T18:28:22+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: syntax error, unexpected ';', expecting ')'
+
+[ 2019-02-07T18:28:27+08:00 ] 127.0.0.1 /index.php/Admin/Test/test42
+ERR: syntax error, unexpected ';', expecting ')'
+
+[ 2019-02-07T18:28:51+08:00 ] 127.0.0.1 /index.php/Admin/Test/test41
+ERR: syntax error, unexpected ';', expecting ')'
+
+[ 2019-02-07T18:33:59+08:00 ] 127.0.0.1 /index.php/Admin/Test/test42
+ERR: 非法操作:test42
+
+[ 2019-02-07T18:33:59+08:00 ] 127.0.0.1 /index.php/Admin/Test/test42
+ERR: 非法操作:test42
+
+[ 2019-02-07T18:34:01+08:00 ] 127.0.0.1 /index.php/Admin/Test/test42
+ERR: 非法操作:test42
+
+[ 2019-02-07T18:34:01+08:00 ] 127.0.0.1 /index.php/Admin/Test/test42
+ERR: 非法操作:test42
+
+[ 2019-02-07T18:34:01+08:00 ] 127.0.0.1 /index.php/Admin/Test/test42
+ERR: 非法操作:test42
+
+[ 2019-02-07T18:34:01+08:00 ] 127.0.0.1 /index.php/Admin/Test/test42
+ERR: 非法操作:test42
+
+[ 2019-02-07T20:18:34+08:00 ] 127.0.0.1 /index.php/Admin/Public/cpatcha
+ERR: 非法操作:cpatcha
+
+[ 2019-02-07T20:58:00+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:43+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:44+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:44+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:44+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:45+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:45+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:45+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:45+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:49+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:49+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:49+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:49+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:49+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:50+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:50+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T20:58:53+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T21:00:12+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T21:00:16+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T21:00:59+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T21:01:34+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T21:02:31+08:00 ] 127.0.0.1 /index.php/Admin/Public/javascript
+ERR: 非法操作:javascript
+
+[ 2019-02-07T21:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Public/checkLogin.html
+ERR: Call to undefined function Admin\Controller\create()
+
+[ 2019-02-07T21:28:27+08:00 ] 127.0.0.1 /index.php/Admin/Public/checkLogin.html
+ERR: Call to undefined function Admin\Controller\sesssion()
+
+[ 2019-02-07T21:30:20+08:00 ] 127.0.0.1 /index.php/Admin/Public/checkLogin.html
+ERR: Call to undefined function Admin\Controller\sesssion()
+
+[ 2019-02-07T21:31:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:31:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:32:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:32:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:37:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:38:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:38:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:38:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:38:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:38:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:39:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:39:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:39:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:39:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:39:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:39:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:39:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:41:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:41:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:41:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:41:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:47:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:47:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:47:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:47:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:48:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:52:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:52:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:52:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:52:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:52:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:52:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:53:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:53:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:53:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:56:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:56:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:56:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:56:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:56:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:56:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:56:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:56:41+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:58:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:58:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:58:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:58:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:58:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:58:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:58:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:58:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:58:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:58:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:58:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:59:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:59:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:59:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:59:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T21:59:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T21:59:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:00:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:00:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:00:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:00:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:00:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:00:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:00:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:01:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:01:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:01:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:01:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:01:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:01:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:01:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:01:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:07+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:01:19+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:01:19+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:01:20+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:01:20+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:01:20+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:01:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:01:24+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:02:51+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:02:51+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:02:51+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:02:51+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:02:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:02:57+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:03:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:08+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:03:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:35+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:03:38+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:03:38+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:03:38+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:03:38+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:03:38+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:03:39+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:03:52+08:00 ] 127.0.0.1 /index.php/Admin/login
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:03:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:03:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:04:31+08:00 ] 127.0.0.1 /index.php/Admin/Public/login
+ERR: syntax error, unexpected 'public' (T_PUBLIC)
+
+[ 2019-02-07T22:05:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:05:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:05:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:05:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:05:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:05:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:05:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:05:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:05:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:05:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:05:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:05:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:05:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:05:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:05:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:05:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:05:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:05:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:05:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:05:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:05:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:05:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:05:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:06:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:06:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:06:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:06:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:07:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:07:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:07:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:07:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:07:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:07:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:07:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:07:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:07:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:07:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:07:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:07:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:07:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:07:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:07:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:10:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:10:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:10:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:10:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:11:42+08:00 ] 127.0.0.1 /index.php/Admin/Index/login
+ERR: 非法操作:login
+
+[ 2019-02-07T22:12:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:12:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:12:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:14:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:14:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:14:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:14:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:14:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:14:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:14:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:14:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:14:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:14:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:14:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:14:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:14:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:15:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:15:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:20:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:20:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:20:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:20:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:20:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:20:27+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:20:27+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:20:27+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:20:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:20:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:20:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:20:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:22:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:22:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/logout
+ERR: 非法操作:logout
+
+[ 2019-02-07T22:23:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/logout
+ERR: 非法操作:logout
+
+[ 2019-02-07T22:23:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:23:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:23:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:23:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:23:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:23:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:27:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:27:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:27:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:27:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:27:50+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:28:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:29:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:29:27+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:29:27+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:29:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:29:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:29:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:29:28+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:29:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:29:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:29:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:29:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:29:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:29:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:32:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:32:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:32:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:32:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:32:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:32:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:32:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:32:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:32:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:32:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:32:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:32:27+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:32:27+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:35:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:35:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:35:29+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:41:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:41:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:41:34+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:42:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:19+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:42:26+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:42:27+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:42:27+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:42:28+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:42:32+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:42:32+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:42:32+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:42:32+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:42:33+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:42:33+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:42:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:41+08:00 ] 127.0.0.1 /index.php/Admin/login
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:42:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:42:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:43:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:43:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:43:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:43:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:44:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:44:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:44:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:44:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:44:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:44:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:44:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:44:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:45+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:45+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:45+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:46+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:45:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:46:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:46:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:46:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:46:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:46:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:46:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:46:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:46:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:47:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:47:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:47:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:47:40+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:47:40+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:48:24+08:00 ] 127.0.0.1 /index.php/Admin/login
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T22:52:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:52:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:52:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:52:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:52:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:52:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:53:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:53:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:53:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:53:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:53:25+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:54:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:54:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:55:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:55:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:55:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:55:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:55:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:55:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:55:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:55:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:55:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T22:55:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:55:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:55:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:57:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:57:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T22:57:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T23:00:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/login.html
+ERR: 非法操作:login
+
+[ 2019-02-07T23:00:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:29+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:29+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:29+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:29+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:29+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:29+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:00:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:01:49+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:02:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:02:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:02:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:02:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:02:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:02:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:02:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:04+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:03:21+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:05:10+08:00 ] 127.0.0.1 /index.php/Admin/login.html
+ERR: 无法加载控制器:Login
+
+[ 2019-02-07T23:05:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:05:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:05:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:05:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:05:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:05:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:05:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:37+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:06:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:07:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:07:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:07:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:07:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:07:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:07:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:07:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:07:53+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:08:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:08:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:08:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:08:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:47+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:51+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:11:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:13:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-02-07T23:13:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+

@@ -1,0 +1,104 @@
+[ 2019-03-21T13:22:29+08:00 ] ::1 /index.php/Admin/Index/js/common.js
+ERR: 非法操作:js
+
+[ 2019-03-21T13:22:29+08:00 ] ::1 /index.php/Admin/Index/js/jquery.js
+ERR: 非法操作:js
+
+[ 2019-03-21T13:22:33+08:00 ] ::1 /index.php/Admin/Email/getCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+
+[ 2019-03-21T13:22:36+08:00 ] ::1 /index.php/Admin/Email/getCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+
+[ 2019-03-21T13:22:39+08:00 ] ::1 /index.php/Admin/Email/getCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+
+[ 2019-03-21T13:22:42+08:00 ] ::1 /index.php/Admin/Doc/showList.html
+ERR: 1146:Table 'db_oa.sp_doc' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_doc`
+
+[ 2019-03-21T13:22:43+08:00 ] ::1 /index.php/Admin/Email/getCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+
+[ 2019-03-21T13:22:44+08:00 ] ::1 /index.php/Admin/Doc/showList.html
+ERR: 1146:Table 'db_oa.sp_doc' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_doc`
+
+[ 2019-03-21T13:22:45+08:00 ] ::1 /index.php/Admin/Email/getCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+
+[ 2019-03-21T13:22:48+08:00 ] ::1 /index.php/Admin/Email/getCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+
+[ 2019-03-21T13:22:51+08:00 ] ::1 /index.php/Admin/Email/getCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+
+[ 2019-03-21T13:22:54+08:00 ] ::1 /index.php/Admin/Email/getCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+
+[ 2019-03-21T13:22:57+08:00 ] ::1 /index.php/Admin/Email/getCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+
+[ 2019-03-21T13:23:00+08:00 ] ::1 /index.php/Admin/Email/getCount.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+ERR: 1146:Table 'db_oa.sp_email' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_email`
+

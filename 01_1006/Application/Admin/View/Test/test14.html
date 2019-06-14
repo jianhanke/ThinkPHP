@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	volist标签: <br>
+	<volist name='array' id='vol' >
+		{$vol}-
+	</volist>
+	<br>
+	foreach标签：<br>
+	<foreach name='array' item='for'>
+		{$for} -
+	</foreach>
+
+	<hr> <hr>
+	vilist 标签:
+	<volist name='array2' id='vol'>
+		<volist name='vol' id='vo'>
+			{$vo}-
+		</volist>
+		<br>
+	</volist>      
+
+	<hr> <hr>
+	foreach 标签：
+	<foreach name='array2' item='for'>
+		{$for[0]} - {$for[1]} - {$for[2]} - {$for[3]} 
+		<br>
+
+	</foreach>
+	<hr>
+	<foreach name='array2' item='for'>
+		<foreach name='for' item='fo'>
+			{$fo}
+		</foreach>
+		<br>
+	</foreach>
+	
+	{// foreach 每个元素是item}
+	{// volist  循环每个元素是id }
+	{//foreach 是 volist 的简写}
+	
+</body>
+</html>
