@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>留言板</title>
+	<link rel="stylesheet" href="<?php echo __PUBLIC__.'css/';?>home.css">
+</head>
+<body>
+<div id="box">
+	<h1>留言板</h1>
+	<div class="postbox">
+		<form method="post" action="index.php?p=home&c=index&a=add">
+			<ul class="userbox">
+				<li>姓名：</li><li class="user_name" ><input type="text" name="poster" /></li>
+				<li>邮箱：</li><li class="user_email" ><input type="text" name="mail" /></li>
+				<li class="user_post"><input type="submit" class="post_button" value="发布" /></li>
+			</ul>
+			<textarea name="message" required="required" >在此处输入留言</textarea>
+		</form>
+	</div>
+	<div class="message_info">
+		留言数：<?php echo $count; ?>
+		<span class="sort">
+			排序方式：<a href="#">正序</a> <a href="#">倒序</a>
+		</span>
+	</div>
+	<ul class="messages">
+	 <?php foreach($infos as $k => $v): ?>
+				<li>
+			<p>用户名：<?php echo $v['id']; ?></p>
+			<p>老师您好，<?php echo $v['message']; ?> </p>
+			<p>发表日期：<?php echo $v['date']; ?> </p>
+			<ul class="message_reply">
+				<li>
+					<p>管理员回复：</p>
+					<p> <?php echo $v['reply']; ?> </p>
+				</li>
+			</ul>
+		</li>
+		
+		<?php  endforeach; ?>	
+	</ul>
+	<div class="messages_footer">
+	</div>
+</div>
+</body>
+</html>

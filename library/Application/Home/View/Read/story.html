@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+			a{ text-decoration:none;color:green} 
+	</style>
+</head>
+<body>
+
+	<h2>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;点击,即可阅读</h2>
+
+	<volist name="data" id="dat">
+
+		<a href="__CONTROLLER__/get_book/book_id/{$dat.story_id} ">{$dat.story_name} </a>
+		<br />
+	</volist>
+
+
+</body>
+</html>

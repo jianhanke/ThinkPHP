@@ -1,0 +1,133 @@
+[ 2019-05-30T11:50:38+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001540s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+
+[ 2019-05-30T11:50:38+08:00 ] ::1 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003088s ]
+
+[ 2019-05-30T11:50:43+08:00 ] ::1 /index.php/Home/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 1 AND `user_pwd` = '1' LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001319s ]
+
+[ 2019-05-30T11:50:44+08:00 ] ::1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2019-05-30T11:50:44+08:00 ] ::1 /index.php/Home/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+
+[ 2019-05-30T11:50:45+08:00 ] ::1 /index.php/Home/Message/show_message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0237s ]
+SQL: SELECT DISTINCT  t1.*,t2.user_name FROM `message` INNER JOIN message as t1 ,user as t2   WHERE ( t1.user_id=t2.user_id AND (t1.user_status =1 OR t1.user_status=0) ) ORDER BY add_date desc   [ RunTime:0.0235s ]
+SQL: SELECT DISTINCT  t1.*,t2.user_name FROM `message` INNER JOIN message as t1 ,user as t2   WHERE ( t1.user_id=t2.user_id AND t1.user_status>=10  ) ORDER BY add_date desc  LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050338s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001733s ]
+
+[ 2019-05-30T11:50:50+08:00 ] ::1 /index.php/Home/Book/borrow_book.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0203s ]
+NOTIC: [8] Undefined variable: page E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 12 行.
+NOTIC: [8] Trying to get property 'firstRow' of non-object E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: page E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 12 行.
+NOTIC: [8] Trying to get property 'listRows' of non-object E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( status = 0  ) LIMIT 1   [ RunTime:0.0148s ]
+SQL: SELECT * FROM `books` WHERE ( status = 0  ) LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+

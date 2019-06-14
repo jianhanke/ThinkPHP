@@ -1,0 +1,1347 @@
+[ 2019-04-11T16:13:06+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+
+[ 2019-04-11T16:13:06+08:00 ] ::1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001951s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002004s ]
+
+[ 2019-04-11T16:13:06+08:00 ] ::1 /index.php/Admin/Login/captcha/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004505s ]
+
+[ 2019-04-11T16:13:12+08:00 ] ::1 /index.php/Admin/Login/verifyLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 1 AND `pwd` = '1' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2019-04-11T16:13:13+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027639s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2019-04-11T16:13:14+08:00 ] ::1 /index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019792s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2019-04-11T16:13:44+08:00 ] ::1 /index.php/Admin/Manage/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0117s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `books` ORDER BY id desc  LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017031s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2019-04-11T16:36:52+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2019-04-11T16:36:52+08:00 ] ::1 /index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2019-04-11T16:38:00+08:00 ] ::1 /index.php/Admin/Manage/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0226s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `books` ORDER BY id desc  LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2019-04-11T16:38:03+08:00 ] ::1 /index.php/Admin/Manage/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001785s ]
+
+[ 2019-04-11T16:38:06+08:00 ] ::1 /index.php/Admin/Manage/haved_borrow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM books as t1,user as t2 WHERE ( t1.now_borrow= t2.user_id ) LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: count E:\wamp\apache\library\Application\Admin\Model\BooksModel.class.php 第 53 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0071s ]
+SQL: SELECT t1.*,t2.user_name FROM books as t1,user as t2 WHERE ( t1.now_borrow= t2.user_id )  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: show E:\wamp\apache\library\Application\Admin\Controller\ManageController.class.php 第 172 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\689885dfb7111836b8265bfdcf008073.php 第 68 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049881s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001660s ]
+
+[ 2019-04-11T16:38:10+08:00 ] ::1 /index.php/Admin/Manage/no_borrow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0227s ]
+NOTIC: [8] Undefined variable: page E:\wamp\apache\library\Application\Admin\Controller\ManageController.class.php 第 197 行.
+NOTIC: [8] Trying to get property 'firstRow' of non-object E:\wamp\apache\library\Application\Admin\Controller\ManageController.class.php 第 197 行.
+NOTIC: [8] Undefined variable: page E:\wamp\apache\library\Application\Admin\Controller\ManageController.class.php 第 197 行.
+NOTIC: [8] Trying to get property 'listRows' of non-object E:\wamp\apache\library\Application\Admin\Controller\ManageController.class.php 第 197 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( status = 0   ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `books` WHERE ( status = 0   ) LIMIT 0,20   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001691s ]
+
+[ 2019-04-11T16:38:13+08:00 ] ::1 /index.php/Admin/User/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `user` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `user` LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2019-04-11T16:38:15+08:00 ] ::1 /index.php/Admin/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0190s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2019-04-11T16:41:17+08:00 ] ::1 /index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000499s ]
+
+[ 2019-04-11T16:41:17+08:00 ] ::1 /index.php/Admin/Login/captcha/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2019-04-11T16:41:29+08:00 ] ::1 /index.php/Admin/Login/verifyLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `admin` WHERE `id` = 1 AND `pwd` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000965s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2019-04-11T16:41:31+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2019-04-11T16:41:31+08:00 ] ::1 /index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000030s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2019-04-11T16:41:37+08:00 ] ::1 /index.php/Admin/Manage/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2019-04-11T16:41:49+08:00 ] ::1 /index.php/Admin/Manage/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0202s ]
+SQL: INSERT INTO `books` (`book_name`,`author`,`press`,`remark`,`picture`,`thumb_picture`) VALUES ('ce','saf','fsad ','dasf','E:/wamp/apache/library/Public/books/1554972107.png','/public/books/thumb_1554972107.png') [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.001932s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.001431s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000004s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2019-04-11T16:41:50+08:00 ] ::1 /index.php/Admin/Manage/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000032s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2019-04-11T16:45:54+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2019-04-11T16:45:54+08:00 ] ::1 /index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001292s ]
+
+[ 2019-04-11T16:45:54+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004674s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2019-04-11T16:45:54+08:00 ] ::1 /index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006468s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001070s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2019-04-11T17:08:21+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006951s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006971s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2019-04-11T17:08:21+08:00 ] ::1 /index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001414s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010464s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2019-04-11T17:08:23+08:00 ] ::1 /index.php/Admin/Manage/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `books` ORDER BY id desc  LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2019-04-11T17:08:26+08:00 ] ::1 /index.php/Admin/Manage/modify/id/3122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `books` WHERE `id` = 3122 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2019-04-11T17:08:28+08:00 ] ::1 /index.php/Admin/Manage/delete/id/3122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0095s ]
+ERR: Think\Model:delete_book方法不存在！
+
+[ 2019-04-11T17:09:46+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2019-04-11T17:09:46+08:00 ] ::1 /index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000600s ]
+
+[ 2019-04-11T17:09:46+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2019-04-11T17:09:47+08:00 ] ::1 /index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2019-04-11T17:09:49+08:00 ] ::1 /index.php/Admin/Manage/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `books` ORDER BY id desc  LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000701s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2019-04-11T17:09:53+08:00 ] ::1 /index.php/Admin/Manage/modify/id/3122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `books` WHERE `id` = 3122 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2019-04-11T17:09:55+08:00 ] ::1 /index.php/Admin/Manage/delete/id/3122
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0092s ]
+SQL: DELETE FROM `books` WHERE `id` = 3122 [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000031s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2019-04-11T17:09:57+08:00 ] ::1 /index.php/Admin/Manage/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0126s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `books` ORDER BY id desc  LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2019-04-11T17:10:55+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2019-04-11T17:10:55+08:00 ] ::1 /index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006964s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.020615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.020813s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000948s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2019-04-11T17:10:55+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2019-04-11T17:10:55+08:00 ] ::1 /index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003183s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001013s ]
+
+[ 2019-04-11T17:11:29+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2019-04-11T17:11:29+08:00 ] ::1 /index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000018s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007302s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2019-04-11T17:11:29+08:00 ] ::1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005372s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2019-04-11T17:11:29+08:00 ] ::1 /index.php/Admin/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000038s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2019-04-11T17:11:33+08:00 ] ::1 /index.php/Admin/Manage/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0206s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `books` ORDER BY id desc  LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2019-04-11T17:11:35+08:00 ] ::1 /index.php/Admin/Manage/modify/id/3120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `books` WHERE `id` = 3120 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2019-04-11T17:11:37+08:00 ] ::1 /index.php/Admin/Manage/delete/id/3120
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000438s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0209s ]
+SQL: DELETE FROM `books` WHERE `id` = 3120 [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2019-04-11T17:11:40+08:00 ] ::1 /index.php/Admin/Manage/showList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003288s ]
+NOTIC: [2] Use of undefined constant id - assumed 'id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Admin\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0104s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `books` ORDER BY id desc  LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+NOTIC: [8] Undefined index: haved_borrow E:\wamp\apache\library\Application\Runtime\Cache\Admin\635c532e312c9918cd293cd475dbc244.php 第 71 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+

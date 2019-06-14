@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="__PUBLIC__/Admin/js/echarts.min.js" ></script>
+</head>
+<body>
+
+	<div id="funnel" style="width: 70%;height: 580px;"  ></div>
+     <p hidden id="nums">{$count} </p>
+	
+	<foreach name="data" key="k" item="dat">
+			<p hidden="" id="{$k}" nums="{$dat[0]['num']} " >{$dat[0]['book_name'] }	</p>
+	</foreach>
+
+</body>
+
+	
+	<script type="text/javascript">
+	var funnel = echarts.init(document.getElementById('funnel'));
+    var nums=document.getElementById('nums').innerText;
+
+    var arr_name=new Array();
+    var arr_nums=new Array();
+    var values_name=new Array();
+    var sums=0;
+    
+    for(var i=0;i<nums;i++){
+        sums+=parseInt(document.getElementById(i).getAttribute('nums'));
+    }
+
+    for(var i=0;i<nums;i++){
+            var name=document.getElementById(i).innerText;
+            // arr_name[i]=name
+            
+            var number=parseInt(document.getElementById(i).getAttribute('nums'));
+            
+            number=(number/sums).toFixed(2)*100;
+            console.log(number);
+            values_name[i]= {'value':number,'name':name }
+            
+    }
+
+
+option = {
+    title: {
+        text: '书本排行漏斗图',
+        subtext: '数据连接于数据库,实时更新'
+    },
+    tooltip: {
+        trigger: 'item',
+        formatter: "{a} <br/>{b} : {c}%"
+    },
+    toolbox: {
+        feature: {
+            dataView: {readOnly: false},
+            restore: {},
+            saveAsImage: {}
+        }
+    },
+    legend: {
+        data: arr_name
+    },
+    calculable: true,
+    series: [
+        {
+            name:'漏斗图',
+            type:'funnel',
+            left: '10%',
+            top: 60,
+            //x2: 80,
+            bottom: 60,
+            width: '80%',
+            // height: {totalHeight} - y - y2,
+            min: 0,
+            max: 100,
+            minSize: '0%',
+            maxSize: '100%',
+            sort: 'descending',
+            gap: 2,
+            label: {
+                show: true,
+                position: 'inside'
+            },
+            labelLine: {
+                length: 10,
+                lineStyle: {
+                    width: 1,
+                    type: 'solid'
+                }
+            },
+            itemStyle: {
+                borderColor: '#fff',
+                borderWidth: 1
+            },
+            emphasis: {
+                label: {
+                    fontSize: 20
+                }
+            },
+            data: 
+                values_name
+            
+        }
+    ]
+};
+	funnel.setOption(option);
+
+	</script>
+
+</html>

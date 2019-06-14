@@ -1,0 +1,27 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>留言板</title>
+</head>
+<body>
+	
+	<div style="height: 500px;width:100%; ">
+		<form  action="/index.php/Home/Message/leave_message"  method="post" style=" text-align:center" >
+		
+		<p>是否匿名</p>
+		<input type="radio" name="user_status" value="0">匿名
+		<input type="radio" checked="checked" name="user_status" value="1">实名
+
+		<p>留言:</p>
+		<textarea rows="15" cols="60" name="user_message"></textarea>
+		<br><br>
+		<input type="submit" value="提交" style="float:center; ">
+
+		</form>
+
+	</div>
+
+	
+</body>
+</html>

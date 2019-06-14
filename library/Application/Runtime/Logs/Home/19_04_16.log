@@ -1,0 +1,842 @@
+[ 2019-04-16T21:17:14+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003301s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+
+[ 2019-04-16T21:17:14+08:00 ] ::1 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001547s ]
+
+[ 2019-04-16T21:17:18+08:00 ] ::1 /index.php/Home/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 1 AND `user_pwd` = '' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+
+[ 2019-04-16T21:17:22+08:00 ] ::1 /index.php/Home/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 1 AND `user_pwd` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.118831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003400s ]
+
+[ 2019-04-16T21:17:23+08:00 ] ::1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2019-04-16T21:17:24+08:00 ] ::1 /index.php/Home/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+
+[ 2019-04-16T21:17:25+08:00 ] ::1 /index.php/Home/Message/show_message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0096s ]
+SQL: SELECT DISTINCT  t1.*,t2.user_name FROM `message` INNER JOIN message as t1 ,user as t2   WHERE ( t1.user_id=t2.user_id AND (t1.user_status =1 OR t1.user_status=0) ) ORDER BY add_date desc   [ RunTime:0.0313s ]
+SQL: SELECT DISTINCT  t1.*,t2.user_name FROM `message` INNER JOIN message as t1 ,user as t2   WHERE ( t1.user_id=t2.user_id AND t1.user_status>=10  ) ORDER BY add_date desc  LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2019-04-16T21:17:26+08:00 ] ::1 /index.php/Home/Book/borrow_book.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0148s ]
+NOTIC: [8] Undefined variable: page E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 12 行.
+NOTIC: [8] Trying to get property 'firstRow' of non-object E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 12 行.
+NOTIC: [8] Undefined variable: page E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 12 行.
+NOTIC: [8] Trying to get property 'listRows' of non-object E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 12 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( status = 0  ) LIMIT 1   [ RunTime:0.1121s ]
+SQL: SELECT * FROM `books` WHERE ( status = 0  ) LIMIT 0,20   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001783s ]
+
+[ 2019-04-16T21:17:28+08:00 ] ::1 /index.php/Home/Book/return_book.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0117s ]
+NOTIC: [8] Undefined variable: page E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 59 行.
+NOTIC: [8] Trying to get property 'firstRow' of non-object E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 59 行.
+NOTIC: [8] Undefined variable: page E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 59 行.
+NOTIC: [8] Trying to get property 'listRows' of non-object E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `record` WHERE ( user_id=1 AND status=1  ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: user_ E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 76 行.
+SQL: select * from books where id IN (select book_id from record where user_id=1 and status=1) [ RunTime:0.0044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000916s ]
+
+[ 2019-04-16T21:17:32+08:00 ] ::1 /index.php/Home/Person/modify_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0172s ]
+SQL: SELECT `user_id`,`user_name`,`user_tele`,`user_sex` FROM `user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2019-04-16T21:17:34+08:00 ] ::1 /index.php/Home/Person/change_pwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0188s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2019-04-16T21:18:18+08:00 ] ::1 /index.php/Home/Person/modify_info.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0187s ]
+SQL: SELECT `user_id`,`user_name`,`user_tele`,`user_sex` FROM `user` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000019s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004272s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2019-04-16T21:18:20+08:00 ] ::1 /index.php/Home/Person/change_pwd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2019-04-16T21:18:23+08:00 ] ::1 /index.php/Home/read/story.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `story` [ RunTime:0.0104s ]
+SQL: SELECT `story_name`,`story_id` FROM `story`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105590s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2019-04-16T21:18:24+08:00 ] ::1 /index.php/Home/Rank/book_rank.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0159s ]
+SQL: select distinct book_id from record   [ RunTime:0.0007s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2222 AND t1.id=2222   [ RunTime:0.0004s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2227 AND t1.id=2227   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2236 AND t1.id=2236   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2238 AND t1.id=2238   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2247 AND t1.id=2247   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2249 AND t1.id=2249   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2255 AND t1.id=2255   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2256 AND t1.id=2256   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2257 AND t1.id=2257   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2258 AND t1.id=2258   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2259 AND t1.id=2259   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2260 AND t1.id=2260   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2261 AND t1.id=2261   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2262 AND t1.id=2262   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2263 AND t1.id=2263   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2264 AND t1.id=2264   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2265 AND t1.id=2265   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2266 AND t1.id=2266   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2268 AND t1.id=2268   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2276 AND t1.id=2276   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2279 AND t1.id=2279   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2287 AND t1.id=2287   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2294 AND t1.id=2294   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2295 AND t1.id=2295   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2332 AND t1.id=2332   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2345 AND t1.id=2345   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2359 AND t1.id=2359   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2367 AND t1.id=2367   [ RunTime:0.0003s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2368 AND t1.id=2368   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2405 AND t1.id=2405   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2453 AND t1.id=2453   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2479 AND t1.id=2479   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2494 AND t1.id=2494   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2496 AND t1.id=2496   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2513 AND t1.id=2513   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2526 AND t1.id=2526   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2552 AND t1.id=2552   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2569 AND t1.id=2569   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2573 AND t1.id=2573   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2575 AND t1.id=2575   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2580 AND t1.id=2580   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2585 AND t1.id=2585   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2590 AND t1.id=2590   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2593 AND t1.id=2593   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2602 AND t1.id=2602   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2605 AND t1.id=2605   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2606 AND t1.id=2606   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2619 AND t1.id=2619   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2643 AND t1.id=2643   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2649 AND t1.id=2649   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2650 AND t1.id=2650   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2656 AND t1.id=2656   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2683 AND t1.id=2683   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2702 AND t1.id=2702   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2706 AND t1.id=2706   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2716 AND t1.id=2716   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2741 AND t1.id=2741   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2764 AND t1.id=2764   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2769 AND t1.id=2769   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2785 AND t1.id=2785   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2789 AND t1.id=2789   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2814 AND t1.id=2814   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2827 AND t1.id=2827   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2830 AND t1.id=2830   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2836 AND t1.id=2836   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2857 AND t1.id=2857   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2868 AND t1.id=2868   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2880 AND t1.id=2880   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2909 AND t1.id=2909   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2914 AND t1.id=2914   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2932 AND t1.id=2932   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2935 AND t1.id=2935   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2939 AND t1.id=2939   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2941 AND t1.id=2941   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2963 AND t1.id=2963   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2980 AND t1.id=2980   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =2999 AND t1.id=2999   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3001 AND t1.id=3001   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3002 AND t1.id=3002   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3010 AND t1.id=3010   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3019 AND t1.id=3019   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3043 AND t1.id=3043   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3045 AND t1.id=3045   [ RunTime:0.0002s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3052 AND t1.id=3052   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3053 AND t1.id=3053   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3058 AND t1.id=3058   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3059 AND t1.id=3059   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3075 AND t1.id=3075   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3101 AND t1.id=3101   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3106 AND t1.id=3106   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3109 AND t1.id=3109   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3114 AND t1.id=3114   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3115 AND t1.id=3115   [ RunTime:0.0001s ]
+SQL: select  t1.book_name, t2.book_id,count(t2.book_id) as num from books as t1, record as t2 where t2.book_id =3116 AND t1.id=3116   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000017s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000036s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2019-04-16T21:18:26+08:00 ] ::1 /index.php/Home/Rank/press_rank.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0093s ]
+SQL: select distinct press from books [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='南海出版公司' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='人民文学出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='重庆出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='上海译文出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='三联书店' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='花城出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='上海书店出版社' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='北京燕山出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='海南出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='生活·读书·新知三联书店' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='皇冠出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国青年出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='译林出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='北京出版集团公司,北京十月文艺出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='江苏凤凰文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='京华出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国友谊出版公司' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='湖北长江出版集团，长江文艺出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='长江文艺出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='北京十月文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中央编译出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='上海社会科学院出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='上海古籍出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='上海文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='哈尔滨出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国工人出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='春风文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='四川科学技术出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='浙江人民美术出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='河北教育出版社' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='天津人民出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='广州出版社花城出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='浙江文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='商务印书馆' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='百花文艺出版社' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='广西师范大学出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='湖南科学技术出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='光明日报出版社' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='江苏文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='广西美术出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='人民出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国发展出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='作家出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='上海人民出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='人民邮电出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='陕西师范大学出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='新星出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='机械工业出版社' ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='华夏出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='北方文艺出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='龍馬文化' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='江西人民出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='重庆' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='民主与建设出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='科学出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='東立' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='陕西人民出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='后浪丨四川人民出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='文治图书·四川文艺出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中信出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='百花洲文艺出版社' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='上海三联书店' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='世界图书出版公司' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='新世界出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='国际文化出版公司' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中华书局' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='北京大学出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国社会科学出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国人民大学出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='北京出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='漓江出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='武汉出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='商務印書館' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='文化艺术出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='广州出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='时代文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='同心出版社' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='三秦出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='江苏少年儿童出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='理想国|天地出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='云南人民出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='湖南文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='贵州人民出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='东方出版中心' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='北京联合出版公司·后浪出版公司' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='华东师范大学出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='珠海出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='青海人民出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='群言出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='华文出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国电影出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='天地出版社' ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='江苏译林' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='二十一世纪出版集团' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='上海人民美术出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='沈阳出版社百花洲文艺出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='齐鲁出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='岳麓书社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='猫头鹰文化·浙江文艺出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='天海文化' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='解放军文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='新加坡南洋出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='浙江大学出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='九州出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='浙江人民出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='万卷出版公司' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='长征' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='万卷出版公司出版' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='复旦大学出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='线装书局' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中医古籍出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='北京联合出版公司' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='山西古籍出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='大众文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='河南文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='读客图书·江苏凤凰文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='长春出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='朝花少年儿童出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国对外翻译出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='二十一世纪出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='后浪丨湖南美术出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='蓝天' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='四川文艺出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='教育科学出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='世界知识出版社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='上海世界图书出版公司' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='吉林文史出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='清华大学出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='后浪丨北京联合出版公司' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='团结出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国国际广播出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='齐鲁书社' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国少年儿童出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='陕西师范大学出版总社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中州古籍出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='江苏人民出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国轻工业出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='法律出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='外语教学与研究出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='辽宁教育出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='安徽文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国宇航' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='浙江教育出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='开明出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='文汇出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='安徽人民出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='北京理工大学出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='宗教文化出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='吉林出版集团' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国统计出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='上海科学普及出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中信出版集团' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='日本小学馆' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='青岛出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='安东尼' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国大百科全书出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='北方联合出版传媒集团万卷出版公司' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='朝华出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='长江文艺' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='辽海出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='接力出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='电子工业出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='少年儿童出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国文联出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='香港中文大學出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中信出版股份有限公司' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国文联出版公司' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='上海画报出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='南京大学出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国电力出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='四川人民出版社天地出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='后浪丨江西人民出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='連環畫出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='吉林美术出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='南海出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='学苑出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='安徽教育出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='海南摄影美术出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='河南大学出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='第1版(2007年9月1日)' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='花山文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='吉林出版集团有限责任公司' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='读客图书·文汇出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='北岳文艺出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='上海文化出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='纺织工业' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='中国科学技术大学出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='格致出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `books` WHERE ( press='群众出版社' ) LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001297s ]
+
+[ 2019-04-16T21:26:16+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2019-04-16T21:26:17+08:00 ] ::1 /index.php/Home/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+
+[ 2019-04-16T21:26:18+08:00 ] ::1 /index.php/Home/Message/show_message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0189s ]
+SQL: SELECT DISTINCT  t1.*,t2.user_name FROM `message` INNER JOIN message as t1 ,user as t2   WHERE ( t1.user_id=t2.user_id AND (t1.user_status =1 OR t1.user_status=0) ) ORDER BY add_date desc   [ RunTime:0.0010s ]
+SQL: SELECT DISTINCT  t1.*,t2.user_name FROM `message` INNER JOIN message as t1 ,user as t2   WHERE ( t1.user_id=t2.user_id AND t1.user_status>=10  ) ORDER BY add_date desc  LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2019-04-16T21:27:33+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+
+[ 2019-04-16T21:27:33+08:00 ] ::1 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000020s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006669s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2019-04-16T22:19:19+08:00 ] ::1 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+
+[ 2019-04-16T22:19:20+08:00 ] ::1 /index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006416s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001727s ]
+
+[ 2019-04-16T22:19:24+08:00 ] ::1 /index.php/Home/Login/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `user` WHERE `user_id` = 1 AND `user_pwd` = '1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000032s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2019-04-16T22:19:25+08:00 ] ::1 /index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2019-04-16T22:19:25+08:00 ] ::1 /index.php/Home/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+
+[ 2019-04-16T22:19:26+08:00 ] ::1 /index.php/Home/Message/show_message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0097s ]
+SQL: SELECT DISTINCT  t1.*,t2.user_name FROM `message` INNER JOIN message as t1 ,user as t2   WHERE ( t1.user_id=t2.user_id AND (t1.user_status =1 OR t1.user_status=0) ) ORDER BY add_date desc   [ RunTime:0.0011s ]
+SQL: SELECT DISTINCT  t1.*,t2.user_name FROM `message` INNER JOIN message as t1 ,user as t2   WHERE ( t1.user_id=t2.user_id AND t1.user_status>=10  ) ORDER BY add_date desc  LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000839s ]
+
+[ 2019-04-16T22:19:28+08:00 ] ::1 /index.php/Home/Book/return_book.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [2] Use of undefined constant user_id - assumed 'user_id' (this will throw an Error in a future version of PHP) E:\wamp\apache\library\Application\Home\Controller\CommonController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `books` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `record` [ RunTime:0.0063s ]
+NOTIC: [8] Undefined variable: page E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 59 行.
+NOTIC: [8] Trying to get property 'firstRow' of non-object E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 59 行.
+NOTIC: [8] Undefined variable: page E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 59 行.
+NOTIC: [8] Trying to get property 'listRows' of non-object E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 59 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `record` WHERE ( user_id=1 AND status=1  ) LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: user_ E:\wamp\apache\library\Application\Home\Model\BooksModel.class.php 第 76 行.
+SQL: select * from books where id IN (select book_id from record where user_id=1 and status=1) [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000039s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000827s ]
+

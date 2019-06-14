@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>留言板后台</title>
+	<link rel="stylesheet" href="<?php echo __PUBLIC__.'css/'; ?>admin.css" />
+</head>
+<body>
+<div id="box">
+	<h1>留言板后台</h1>
+	<div id="info">欢迎您：<?php echo $username; ?> <a href="index.php?p=Admin&c=Message&a=clear">退出</a></div>
+	<div id="message">
+	<?php foreach($infos as $k => $v ): ?>
+		<ul class="list">
+		
+			<li>作者：<?php echo $v['poster']; ?>邮箱：<?php echo $v['mail']; ?> IP：<?php echo $v['ip']; ?>
+				<span class="right">
+				<a href="index.php?p=Admin&c=Message&a=modify&id=<?php echo $v['id'] ?> " >回复/修改</a>
+				<a href="#">删除</a>
+				</span>
+			</li>
+			<li><?php echo $v['message']; ?></li>
+			<li>
+				<span class="right">发表时间：<?php echo $v['date']; ?> </span>
+				管理员回复：<br />
+				<?php echo $v['reply']; ?>
+			</li>
+
+			<?php endForeach; ?>
+		</ul>
+
+		
+	</div>
+	<div id="footer">
+	</div>
+</div>
+</body>
+</html>

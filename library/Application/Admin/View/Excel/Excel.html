@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Document</title>
+</head>
+<body>
+   <form action="{:U('Admin/Excel/uploadXls')} " method="post" enctype="multipart/form-data">
+   
+   <h2>上传Excel文件,请先下载格式，</h2>
+   <input type="file" name="excelData">
+   <button type="submit">提交</button>
+   
+   </form>
+
+   <br /> <br />
+   <br /> <br />
+   <br /> <br />
+   <button >  <a href="{:U('Admin/Excel/output_user')} ">用户数据库出Excel </a> </button>
+   <button>  <a href="{:U('Admin/Excel/output_books')} ">图书数据库导出Excel </a>	 </button>
+   <button> <a href="{:U('Admin/Excel/output_borrow')}">图书借出记录导出  </a>
+   <button> <a href="{:U('Admin/Excel/output_admin')}">管理员导出  </a>
+   <button> <a href="{:U('Admin/Excel/out_message')}">留言导出  </a>
+   <button> <a href="{:U('Admin/Excel/out_story')}">故事导出  </a>
+   <!-- 下面俩是封装号的函数方法，传入数据库名即可下载 -->
+
+</body>
+</html>
