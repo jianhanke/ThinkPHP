@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>留言板后台</title>
+	<link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+<div id="box">
+	<h1>留言板后台</h1>
+	<div id="message">
+		<form method="post" action="index.php?p=Admin&c=Message&a=save">
+	<ul class="reply">	
+
+		
+			<li>用户：<input name="poster" type="text" class="input" value="<?php echo $info['poster']; ?>" /></li>
+			<li>邮箱：<input name="mail" type="text" class="input" value="<?php echo $info['poster']; ?>" /></li>
+			<li class="top">留言：<textarea name="message"><?php echo $info['message']; ?>  </textarea></li>
+			<li class="top">回复：<textarea name="reply"></textarea></li>
+			
+			<li class="center">
+				<input type="reset" value="重置" class="button" >
+				<input type="submit" value="保存" class="button" >
+				<input type="hidden"  name="id" value="<?php echo $info['id']; ?>">
+			</li>
+			
+
+		</ul>
+		
+		</form>
+	</div>
+</div>
+</body>
+</html>
