@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>留言板后台</title>
+	<link rel="stylesheet" href="<?php __VIEW__.'css/'?>admin.css" />
+</head>
+<body>
+<div id="box">
+	<h1>留言板后台</h1>
+	<div id="loginbox">
+
+		<form method="post" action="index.php?p=Admin&c=Login&a=login">
+		用户名：<input name="username" type="text" class="input" />
+		密码：<input name="password" type="password" class="input" />
+		<input type="submit" value="登录" class="button" />
+		<font color="red"><?php echo isset($GLOBALS['error']) ? $GLOBALS['error'] : '' ?>  </font>
+		</form>
+		
+
+	</div> 
+</div>
+</body>
+</html>
