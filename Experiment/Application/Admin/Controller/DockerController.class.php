@@ -5,6 +5,18 @@ use Think\Controller;
 
 class DockerController extends MyController{
 
+
+	public function ceshi(){
+		$admin1=M('Admin');
+		$admin2=M('Admin');
+		dump($admin1===$admin2);
+		$model3=new \Admin\Model\AdminModel();
+		$model4=D('Admin');
+		$model5=D('Admin');
+		echo "ceshi";
+		dump($model5===$model4);
+	}
+
 	public function showContainer(){
 		$model=new \Admin\Model\View_containerwithstuandexperModel(); 
 		$info=$model->show_Info();
