@@ -1,3 +1,4 @@
+#!/usr/bin/python
 
 def ceshi2():
 
@@ -5,6 +6,5 @@ def ceshi2():
 	for i in range(1000):
 		print(i)	
 	print(id)
-
 if __name__ == '__main__':
 	ceshi2()

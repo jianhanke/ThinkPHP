@@ -30,8 +30,11 @@ class DockerController extends MyController{
 			$ip_num=$model3->find_Ip_id($user_id,$image_id);
 			dump('ipnum:'.$ip_num);
 			// echo "<script> top.location.href='http://localhost:6080/vnc.html?path=/websockify?token=host$ip_num' </script> ";
-			$noVNC=new \Home\Controller\Src\NoVNC();
-			$noVNC->JumpUrlByIp($ip_num);
+			
+			// $noVNC=new \Home\Controller\Src\NoVNC();
+			// $noVNC->JumpUrlByIp($ip_num);
+			$NoVNC=A('NoVNC');
+			$NoVNC->showNoVNC($ip_num);
 			exit();
 		}else{             //   找到实验的id,查出实验索要用的镜像id, 加入课程,  然后跟开启一个新的容器，并返回容器id
 			$image_id=$model->find_ImageId_By_experimentId($experimentId);
@@ -44,6 +47,8 @@ class DockerController extends MyController{
 			$ip_num=$model3->find_Ip_id($user_id,$image_id);
 			dump('ipnum'.$ip_num);
 			// echo "<script> top.location.href='http://localhost:6080/vnc.html?path=/websockify?token=host$ip_num' </script> ";
+			$NoVNC=A('NoVNC');
+			$NoVNC->showNoVNC($ip_num);
 			exit();
 		}
 	}
@@ -82,7 +87,7 @@ class DockerController extends MyController{
 		$ip_num=str_replace('host','',$false_ip);
 
 		$container_id=$model->find_ContainerId_By_Ip($ip_num);
-		$docker_path=dirname(__FILE__).'/ControllerDocker/startContainerById.py'; //重启
+		$docker_path=dirname(x).'/ControllerDocker/startContainerById.py'; //重启
 		exec("/usr/bin/python $docker_path $container_id");   
 		// echo "<script> top.location.href='http://localhost:6080/vnc.html?path=/websockify?token=host$ip_num' </script> ";
 		$noVNC=new \Home\Controller\Src\NoVNC();
