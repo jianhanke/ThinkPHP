@@ -17,10 +17,11 @@ class DockerController extends MyController{
 
 		$experimentId=I('get.id');
 		$user_id=session('user_id');
-	    dump($user_id);
-	    dump($experimentId);
+	    
 		$is_exist=$model2->if_Join_Experiment($user_id,$experimentId);  //判断是否已经加入课程
-		dump($is_exist);
+		// dump($user_id);
+	 //    dump($experimentId);
+		// dump($is_exist);
 		if($is_exist){     //找到实验id,查出实验索要的镜像id,根据user_id和iamge_id 查出容器id,并开启
 							
 			$image_id=$model->find_ImageId_By_experimentId($experimentId);
@@ -28,7 +29,7 @@ class DockerController extends MyController{
 			$container_id=$model3->find_ContainerId_By_ImageId($user_id,$image_id);
 			$this->startContainerById($container_id);
 			$ip_num=$model3->find_Ip_id($user_id,$image_id);
-			dump('ipnum:'.$ip_num);
+			// dump('ipnum:'.$ip_num);
 			// echo "<script> top.location.href='http://localhost:6080/vnc.html?path=/websockify?token=host$ip_num' </script> ";
 			
 			// $noVNC=new \Home\Controller\Src\NoVNC();
@@ -40,12 +41,13 @@ class DockerController extends MyController{
 			$image_id=$model->find_ImageId_By_experimentId($experimentId);
 			$model2->student_Join_Experiment($user_id,$experimentId);    //学生加入课程，填写到experiment 
 			$info=$this->runContainerById($image_id);
-			dump($image_id);
-			dump($info);
+			// 
 			$model3->add_Container($user_id,$info[0],$image_id,$info[1],$info[2]); //学生容器id 加入 docker_container
 
 			$ip_num=$model3->find_Ip_id($user_id,$image_id);
-			dump('ipnum'.$ip_num);
+			// dump($image_id);
+			// dump($info);
+			// dump('ipnum'.$ip_num);
 			// echo "<script> top.location.href='http://localhost:6080/vnc.html?path=/websockify?token=host$ip_num' </script> ";
 			$NoVNC=A('NoVNC');
 			$NoVNC->showNoVNC($ip_num);
