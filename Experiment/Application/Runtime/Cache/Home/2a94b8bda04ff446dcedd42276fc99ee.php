@@ -34,8 +34,8 @@ li a:hover {
   <ul>
     <li><a href="<?php echo U('home');?>" target="iframe" >首页     </a></li>
     <!-- <li><a class="active"  href="<?php echo U('showCourse');?>" target="iframe">课程 </a></li> -->
-    <li><a href="<?php echo U('showExperiment');?>" target="iframe" >实验</a></li>
-    
+    <li><a href="<?php echo U('showExperiment');?>" target="iframe" >主机</a></li>
+    <li><a href="<?php echo U('showCourse');?>" target="iframe" >课程</a></li>
     <li><a href="<?php echo U('showMyCourse');?>" target="iframe">我的课程</a></li>
    <li><a href="<?php echo U('showStudentInfoById');?> " target="iframe">个人中心</a></li>
     <li><a href="">用户:<?php echo ($user_name); ?> </a>  </li>

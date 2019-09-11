@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
  	
@@ -31,24 +31,22 @@
 </head>
 <body>
 
-<volist name="datas" id="data">
-	<div class="myDiv" style="width: 80%;height: 30%; " >
+<?php if(is_array($datas)): $i = 0; $__LIST__ = $datas;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div class="myDiv" style="width: 80%;height: 30%; " >
 
 		<div style="width: 25%;float: left;height: 100%;" >
-			<img src="__PUBLIC__/Course/{$data['img']} " alt="" style="width:100%;height: 100%; ">
+			<img src="/Experiment/Public/Course/<?php echo ($data['img']); ?> " alt="" style="width:100%;height: 100%; ">
 		</div>
 		<div style="width: 75%;float:right;height: 100%;  ">
 				<br />
 				<br />
-			<p>  {$data['name']} </p>  
+			<p>  <?php echo ($data['name']); ?> </p>  
 			<div class="joinExperiment">
 
-				<a href="{:U('Docker/joinExperiment')}/id/{$data['eid']}" target="block"   > 
+				<a href="<?php echo U('Docker/joinExperiment');?>/id/<?php echo ($data['eid']); ?>" target="block"   > 
 				       进入      </a> 
 			</div>
 		</div>
-    </div>
-</volist>
+    </div><?php endforeach; endif; else: echo "" ;endif; ?>
 
 
 
