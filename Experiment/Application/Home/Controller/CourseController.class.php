@@ -15,7 +15,6 @@ class CourseController extends MyController{
 		// dump($info);
 		$this->assign('datas',$info);
 		$this->display();
-
 	}
 
 	public function joinChapterById(){
@@ -26,13 +25,11 @@ class CourseController extends MyController{
 		$model3=new \Home\Model\Docker_containerModel();
 
 		$image_id=$model->find_Image_By_id($id);
-		dump($image_id);
+		// dump($image_id);
 
 		$info=$model3->if_Join_Chapter($image_id,$chapter_id); //判断是否已经加入此章节
 
 		if($info){    //已经加入找到对应容器进入即可，
-			
-			
 			$container_id=$model3->find_ContainerId_By_ImageId($user_id,$image_id);
 			$docker=new \Home\Controller\Entity\Docker();
 			$docker->startContainerById($container_id);
@@ -45,7 +42,7 @@ class CourseController extends MyController{
 
 			$info=$this->runContainerById($image_id);
 			$model3->add_Container_To_Chapter($user_id,$info[0],$image_id,$info[1],$info[2],$chapter_id); //学生容器id 加入 docker_container
-			$ip_num=$model3->find_Ip_id($user_id,$image_id);
+			$ip_num=$info[2];
 			// dump($image_id);
 			// dump($info);
 			// dump('ipnum'.$ip_num);

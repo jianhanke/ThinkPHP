@@ -5,14 +5,12 @@ namespace Home\Controller\Entity;
 
 class Docker{
 
-
-
 	/*
 		docker run -d 运行一个新容器，返回容器id
 	 */
 	public function runContainerByIdIp($image_id,$ip){
 		
-		$docker_path=dirname(__FILE__).'../ControllerDocker/runContainerById.py';
+		$docker_path=dirname(__FILE__,2).'/ControllerDocker/runContainerById.py';
 		$container_id=exec("/usr/bin/python $docker_path $image_id $ip");
 		return $container_id;
 	}
@@ -22,7 +20,7 @@ class Docker{
 	 */
 	public function stopContainerById($container_id){
 
-		$docker_path=dirname(__FILE__).'../ControllerDocker/stopContainerById.py'; //关机
+		$docker_path=dirname(__FILE__,2).'/ControllerDocker/stopContainerById.py'; //关机
 		exec("/usr/bin/python $docker_path $container_id");  
 	}
 
@@ -31,7 +29,7 @@ class Docker{
 	 */
 	public function restartContainerById($container_id){
 	
-		$docker_path=dirname(__FILE__).'../ControllerDocker/restartContainerById.py'; //重启
+		$docker_path=dirname(__FILE__,2).'/ControllerDocker/restartContainerById.py'; //重启
 		exec("/usr/bin/python $docker_path $container_id");   
 	}
 	/*
@@ -39,7 +37,7 @@ class Docker{
 	 */
 	public function startContainerById($container_id){
 
-		$docker_path=dirname(__FILE__).'../ControllerDocker/startContainerById.py';
+		$docker_path=dirname(__FILE__,2).'/ControllerDocker/startContainerById.py';
 		exec("/usr/bin/python $docker_path $container_id");   //启动
 	}
 
