@@ -20,11 +20,11 @@ class IndexController extends MyController{
 	public function showCourse(){
 		$model=D('Course');
 		$info=$model->show_All_Course();
-		dump($info);
+		// dump($info);
 		$this->assign('datas',$info);
 		$this->display();
 
-	}
+	}	
 
 	public function showExperiment(){
 		// $model=new \Home\Model\ExperimentModel();

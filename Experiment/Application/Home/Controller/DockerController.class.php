@@ -11,6 +11,7 @@ class DockerController extends MyController{
 	 */
 	public function joinExperiment(){
 		$model=D('Experiment');
+		
 		$model2=new \Home\Model\Student_experimentModel();
 		// $model3=new \Home\Model\Docker_containerModel();
 		$model3=new \Home\Model\Docker_containerModel();
@@ -19,15 +20,17 @@ class DockerController extends MyController{
 		$user_id=session('user_id');
 	    
 		$is_exist=$model2->if_Join_Experiment($user_id,$experimentId);  //判断是否已经加入课程
-		// dump($user_id);
-	 //    dump($experimentId);
-		// dump($is_exist);
+		
 		if($is_exist){     //找到实验id,查出实验索要的镜像id,根据user_id和iamge_id 查出容器id,并开启
 							
 			$image_id=$model->find_ImageId_By_experimentId($experimentId);
 
 			$container_id=$model3->find_ContainerId_By_ImageId($user_id,$image_id);
-			$this->startContainerById($container_id);
+
+			$docker=new \Home\Controller\Entity\Docker();
+			$docker->startContainerById($container_id);
+
+
 			$ip_num=$model3->find_Ip_id($user_id,$image_id);
 			// dump('ipnum:'.$ip_num);
 			// echo "<script> top.location.href='http://localhost:6080/vnc.html?path=/websockify?token=host$ip_num' </script> ";
@@ -54,46 +57,40 @@ class DockerController extends MyController{
 			exit();
 		}
 	}
-	/*
-		docker start ....  启动一个已经停止的容器
-	 */
-	public function startContainerById($container_id){
-
-		$docker_path=dirname(__FILE__).'/ControllerDocker/startContainerById.py';
-		exec("/usr/bin/python $docker_path $container_id");   //启动
-	}
+	
 	public function restartContainerByIp(){
-		$model=new \Home\Model\Docker_containerModel();
-
 		$false_ip=I('get.false_ip');
 		$ip_num=str_replace('host','',$false_ip);
 		dump($false_ip);
 		dump($ip_num);
 		
-
+		$model=new \Home\Model\Docker_containerModel();
 		$container_id=$model->find_ContainerId_By_Ip($ip_num);
 
-		
-		$docker_path=dirname(__FILE__).'/ControllerDocker/restartContainerById.py'; //重启
-		exec("/usr/bin/python $docker_path $container_id");   
+		$docker=new \Home\Controller\Entity\Docker($container_id);
+		$docker->restartContainerById();
 		// echo "<script> top.location.href='http://localhost:6080/vnc.html?path=/websockify?token=host$ip_num' </script> ";
-		$noVNC=new \Home\Controller\Src\NoVNC();
+		$noVNC=new \Home\Controller\Entity\NoVNC();
 		$noVNC->JumpUrlByIp($ip_num);
 		exit();
 	}
 
 	public function startContainerByIp(){
-		$model=new \Home\Model\Docker_containerModel();
+		
 
 		$false_ip=I('get.false_ip');
 		$ip_num=str_replace('host','',$false_ip);
 
+		$model=new \Home\Model\Docker_containerModel();
 		$container_id=$model->find_ContainerId_By_Ip($ip_num);
-		$docker_path=dirname(x).'/ControllerDocker/startContainerById.py'; //重启
-		exec("/usr/bin/python $docker_path $container_id");   
+		
+		$docker=new \Home\Controller\Entity\Docker();
+		$docker->startContainerById($container_id);
+
 		// echo "<script> top.location.href='http://localhost:6080/vnc.html?path=/websockify?token=host$ip_num' </script> ";
-		$noVNC=new \Home\Controller\Src\NoVNC();
+		$noVNC=new \Home\Controller\Entity\NoVNC();
 		$noVNC->JumpUrlByIp($ip_num);
+
 		exit();
 	}
 
@@ -103,10 +100,12 @@ class DockerController extends MyController{
 		$false_ip=I('get.false_ip');
 		$ip_num=str_replace('host','',$false_ip);
 		$container_id=$model->find_ContainerId_By_Ip($ip_num);
-		$docker_path=dirname(__FILE__).'/ControllerDocker/stopContainerById.py'; //关机
-		exec("/usr/bin/python $docker_path $container_id");   
+		
+		$docker=new \Home\Controller\Entity\Docker();
+		$docker->stopContainerById($container_id);
+
 		// echo "<script> top.location.href='http://localhost:6080/vnc.html?path=/websockify?token=host$ip_num' </script> ";
-		$noVNC=new \Home\Controller\Src\NoVNC();
+		$noVNC=new \Home\Controller\Entity\NoVNC();
 		$noVNC->JumpUrlByIp($ip_num);
 		exit();
 
@@ -118,11 +117,13 @@ class DockerController extends MyController{
 	 */
 	public function runContainerById($image_id){
 		
-		$ips=$this->getNewIp();
-		$ip=$ips['ip'];
+
+		$ips=$docker->getNewIp();
 		dump($ips);
-		$docker_path=dirname(__FILE__).'/ControllerDocker/runContainerById.py';
-		$container_id=exec("/usr/bin/python $docker_path $image_id $ip");
+		$ip=$ips['ip'];
+		
+		$docker=new \Home\Controller\Src\Docker();
+		$container_id=$docker->runContainerByIdIp($image_id,$ip);    //具体docker中 run -it 
 
 		$info[]=$container_id;
 		$info[]=$ip;
@@ -130,37 +131,27 @@ class DockerController extends MyController{
 		return $info;
 	}
 
-	public function getNewIp(){
-
-		$model=new \Home\Model\Docker_containerModel();
-
-		$ip_num=$model->find_Max_Ip();
-		$ip_num=(int)$ip_num+1;
-		$ip_prefix=(int)($ip_num/256);
-		$ip_num=$ip_num%256;
-		$ip='172.19.'.$ip_prefix.'.'.$ip_num;
-		return array('ip'=>$ip,'ip_num'=>$ip_num);
-	}
 	
-	public function ceshi(){
+	
+	// public function ceshi(){
 		
-		$model=new \Home\Model\Docker_containerModel();
+	// 	$model=new \Home\Model\Docker_containerModel();
 
-		$ip_num=$model->find_Max_Ip();
-		$ip_num=(int)$ip_num+1;
-		$ip='172.19.0.'.$ip_num;
-		$image_id='d0ae770d2ba7';
-		$docker_path=dirname(__FILE__).'/ControllerDocker/runContainerById.py';
-		$$container_id=exec("/usr/bin/python $docker_path $image_id $ip");
+	// 	$ip_num=$model->find_Max_Ip();
+	// 	$ip_num=(int)$ip_num+1;
+	// 	$ip='172.19.0.'.$ip_num;
+	// 	$image_id='d0ae770d2ba7';
+	// 	$docker_path=dirname(__FILE__).'/ControllerDocker/runContainerById.py';
+	// 	$$container_id=exec("/usr/bin/python $docker_path $image_id $ip");
 		
 
-		$noVNC=new \Home\Controller\Src\NoVNC();
-		$noVNC->JumpUrlByIp('3');
-		// echo $container_id.'<br />';
-		// echo($ip);
-		// $info[]=$container_id;
-		// $info[]=$ip;
-		// return $info;
-	}
+	// 	$noVNC=new \Home\Controller\Src\NoVNC();
+	// 	$noVNC->JumpUrlByIp('3');
+	// 	// echo $container_id.'<br />';
+	// 	// echo($ip);
+	// 	// $info[]=$container_id;
+	// 	// $info[]=$ip;
+	// 	// return $info;
+	// }
 
 }

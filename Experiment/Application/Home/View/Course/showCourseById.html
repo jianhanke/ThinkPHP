@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+		html, body {
+            width:100%;
+            height:100%;
+            margin:0px;
+            padding:0px;
+        }
+		a{ text-decoration:none} 
+</style>
+
+<body>
+	
+
+	<div style="width: 50%;  border:5px;  "  >
+	<volist name="datas" id="data">
+	
+		<a href="{:U('Course/joinChapterById')}/id/{$data['id']}"  target="block"> &#9733{$data['name']} </a> <br />
+		
+	</volist>
+	</div>
+
+</body>
+</html>

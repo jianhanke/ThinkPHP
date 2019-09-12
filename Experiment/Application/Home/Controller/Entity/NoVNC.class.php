@@ -1,6 +1,6 @@
 <?php 
 
-namespace Home\Controller\Src;
+namespace Home\Controller\Entity;
 
 class NoVNC{
 	

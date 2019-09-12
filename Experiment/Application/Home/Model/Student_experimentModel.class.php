@@ -14,7 +14,7 @@ class Student_experimentModel extends Model{
 		}else{
 			return false;
 		}
-
+		
 	}
 	public function student_Join_Experiment($Sid,$Eid){
 

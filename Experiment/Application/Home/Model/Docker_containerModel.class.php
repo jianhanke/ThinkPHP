@@ -44,7 +44,26 @@ class Docker_containerModel extends Model{
 		
 
 	}
-	
+
+	public function if_Join_Chapter($image_id,$to_chapter){
+		$is_exist=$this->where("Image_id='$image_id' and to_chapter='$to_chapter'")->find();
+		if(!empty($is_exist)){
+			return true;
+		}else{
+			return false;
+		}
+	}
+
+	public function add_Container_To_Chapter($user_id,$container_id,$image_id,$ip,$ip_num,$to_chapter){
+		$this->Container_id=$container_id;
+		$this->student_id=$user_id;
+		$this->Image_id=$image_id;
+		$this->ip=$ip;
+		$this->ip_num=$ip_num;
+		$this->to_chapter=$to_chapter;
+		return $this->add();
+
+	}
 
 
 
