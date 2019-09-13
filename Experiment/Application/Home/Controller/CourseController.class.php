@@ -58,7 +58,7 @@ class CourseController extends MyController{
 		
 		$docker=new \Home\Controller\Entity\Docker();
 		$ips=$docker->getNewIp();
-		dump($ips);
+		// dump($ips);
 		$ip=$ips['ip'];
 		
 		$container_id=$docker->runContainerByIdIp($image_id,$ip);    //具体docker中 run -it 

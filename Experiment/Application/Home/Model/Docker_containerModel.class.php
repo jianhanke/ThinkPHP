@@ -16,6 +16,10 @@ class Docker_containerModel extends Model{
 		return $info['container_id'];
 	}
 
+	public function find_Id_By_Ip($ip_num){
+		return $this->where("ip_num=$ip_num")->find()['id'];
+	}
+
 	public function find_Ip_id($user_id,$image_id){
 		$info=$this->where("student_id='$user_id' and Image_id='$image_id'")->find();
 		return $info['ip_num'];	
@@ -63,6 +67,20 @@ class Docker_containerModel extends Model{
 		$this->to_chapter=$to_chapter;
 		return $this->add();
 
+	}
+
+	public function save_Note($id,$myNote){
+		dump($id);
+		dump($myNote);
+		$this->note=$myNote;
+
+		$this->id=$id;
+		$this->save();
+	}
+
+	public function find_Container_By_Ip($ip_num){
+		return $this->where("ip_num=$ip_num")
+					->find();
 	}
 
 

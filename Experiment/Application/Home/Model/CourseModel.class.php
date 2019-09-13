@@ -18,6 +18,4 @@ class CourseModel extends Model{
 		$image_id=$model->find_Image_By_id($id);
 
 	}
-
-
 }
