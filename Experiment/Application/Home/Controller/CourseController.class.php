@@ -30,7 +30,7 @@ class CourseController extends MyController{
 		$info=$model3->if_Join_Chapter($image_id,$chapter_id); //判断是否已经加入此章节
 
 		if($info){    //已经加入找到对应容器进入即可，
-			$container_id=$model3->find_ContainerId_By_ImageId($user_id,$image_id);
+			$container_id=$model3->find_ContainerId_By_ImageId($image_id,$chapter_id);
 			$docker=new \Home\Controller\Entity\Docker();
 			$docker->startContainerById($container_id);
 			
