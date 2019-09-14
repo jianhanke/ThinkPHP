@@ -83,6 +83,12 @@ class Docker_containerModel extends Model{
 					->find();
 	}
 
+	public function find_Ip_By_Chapter($user_id,$image_id,$chapter_id){
+
+		$info=$this->where("student_id='$user_id' and Image_id='$image_id' and to_chapter='$chapter_id' ")->find();
+		return $info['ip_num'];
+	}
+
 
 
 	

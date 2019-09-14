@@ -11,11 +11,11 @@ class CourseModel extends Model{
 		return $this->select();
 	}
 
-	public function joinChapterById(){
+	// public function joinChapterById(){
 
-		$id=I('get.id');
-		$model=D('chapter');
-		$image_id=$model->find_Image_By_id($id);
+	// 	$id=I('get.id');
+	// 	$model=D('chapter');
+	// 	$image_id=$model->find_Image_By_id($id);
 
-	}
+	// }
 }

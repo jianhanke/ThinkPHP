@@ -22,5 +22,5 @@ class StudentModel extends Model{
 
 		return $this->find($Sid);
 	}
-
+	
 }

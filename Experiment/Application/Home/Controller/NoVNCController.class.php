@@ -17,7 +17,13 @@ class NoVNCController extends MyController{
 		$id=$info['id'];
 		$myNote=$info['note'];
 		$myNote=htmlspecialchars_decode(html_entity_decode($myNote));  //将html 解码
+		
+		
+		if($info['doc']==Null){
+			$info['doc']='2.htm';
+		}
 
+		$this->assign('datas',$info);
 		$this->assign('id',$id);
 		$this->assign('myNote',$myNote);
 		$this->assign('url',$url);
