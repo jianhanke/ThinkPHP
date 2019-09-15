@@ -25,9 +25,10 @@ class DockerController extends MyController{
 							
 			$image_id=$model->find_ImageId_By_experimentId($experimentId);
 			
-			$container_id=$model3->find_ContainerId_By_ImageId($user_id,$image_id);
+			$container_id=$model3->find_Container_By_UserId($user_id,$image_id);
 
 			$docker=new \Home\Controller\Entity\Docker();
+			
 			$docker->startContainerById($container_id);
 
 			
@@ -41,7 +42,7 @@ class DockerController extends MyController{
 			// $NoVNC->showNoVNC($ip_num); 
 			exit();
 		}else{             //   找到实验的id,查出实验索要用的镜像id, 加入课程,  然后跟开启一个新的容器，并返回容器id
-			$image_id=$model->find_ImageId_By_experimentId($experimentId);
+			$image_id=$model->find_Container_By_UserId($experimentId);
 			$model2->student_Join_Experiment($user_id,$experimentId);    //学生加入课程，填写到experiment 
 			$info=$this->runContainerById($image_id);
 			// 

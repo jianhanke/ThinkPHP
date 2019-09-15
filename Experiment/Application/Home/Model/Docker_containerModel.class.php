@@ -15,6 +15,10 @@ class Docker_containerModel extends Model{
 		$info=$this->where("Image_id='$image_id' and to_chapter='$chapter_id'")->find();
 		return $info['container_id'];
 	}
+	public function find_Container_By_UserId($user_id,$image_id){
+		return $this->where("student_id='$user_id' and Image_id='$image_id'")->find()['container_id'];
+	}
+
 
 	public function find_Id_By_Ip($ip_num){
 		return $this->where("ip_num=$ip_num")->find()['id'];
