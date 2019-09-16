@@ -30,7 +30,13 @@
 	</style>	
 </head>
 <body>
-
+	<div  style="height: 10%;width: 50%;  margin: auto; " >
+		<form action="{:U('Index/serachKeyWord')} " method="get"   style="height: 100%;width: 100%;">
+			
+			<input type="text" value="主机名字关键词" name='keyword' onfocus="if (value =='主机名字关键词'){value =''}" onblur="if (value ==''){value='主机名字关键词'}"  style="height:50%;width: 50%;"  />
+     		<button  type="submit"  align="right" style="height:50%;width: 8%;"   >查询</button>
+     	</form>
+	</div>	
 <volist name="datas" id="data">
 	<div class="myDiv" style="width: 80%;height: 30%; " >
 
@@ -56,3 +62,4 @@
 
 </body>
 </html>
+

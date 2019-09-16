@@ -23,5 +23,10 @@ class ExperimentModel extends Model{
 		return $this->field('Eid')->select();
 	}
 
+	public function serach_Key_Wordl($keyword){
+		$sql="select * from experiment where Ename like '%$keyword%' ";
+		return $this->query($sql);
+	}
+
 
 }

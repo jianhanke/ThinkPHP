@@ -84,5 +84,15 @@ class IndexController extends MyController{
 		$this->display('showStudentInfo');
 	}
 
+	public function serachKeyWord(){
+
+		$keyword=I('get.keyword');
+		$model=D('Experiment');
+		$info=$model->serach_Key_Wordl($keyword);
+		$this->assign('datas',$info);
+		$this->display('showExperiment');
+
+	}
+
 
 }
