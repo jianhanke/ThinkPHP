@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -39,36 +39,32 @@
 
 	<ul class="point">
         
-            <volist name="datas" id="data">
-		<li><a href="#"> &#9733{$data['name']}  </a>  </li>
-			</volist>
+            <?php if(is_array($datas)): $i = 0; $__LIST__ = $datas;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><li><a href="#"> &#9733<?php echo ($data['name']); ?>  </a>  </li><?php endforeach; endif; else: echo "" ;endif; ?>
         </ul>
         <div class="box" style="height: 70%;width: 40%;">
             
-            <volist name="datas" id="data">
-            <div  class="con{$key}"  style="height: 70%;width: 100%;" >
+            <?php if(is_array($datas)): $i = 0; $__LIST__ = $datas;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><div  class="con<?php echo ($key); ?>"  style="height: 70%;width: 100%;" >
             <b> 进入</b> <br /> 
-		<a href="{:U('Course/joinChapterById')}/id/{$data['id']}" target="block">
+		<a href="<?php echo U('Course/joinChapterById');?>/id/<?php echo ($data['id']); ?>" target="block">
 
-			 &#9733{$data['name']} 
+			 &#9733<?php echo ($data['name']); ?> 
 			  </a>
 			  	<br /><br /><br />
 			 <b   >上传报告</b>
-				<form action="{:U('Course/uploadFile')} " method="post" enctype="multipart/form-data" >
+				<form action="<?php echo U('Course/uploadFile');?> " method="post" enctype="multipart/form-data" >
 						<input type="file"  name="file" >
-						<input type="hidden" name="chapter_id" value="{$data['id']} "  >
-						<!-- <input type="texhiddetn"  name="chapter_name"  value="{$data['name']} -->
+						<input type="hidden" name="chapter_id" value="<?php echo ($data['id']); ?> "  >
+						<!-- <input type="texhiddetn"  name="chapter_name"  value="<?php echo ($data['name']); ?> -->
 						<input type="submit" value="上传" >
 				</form>
 
-              </div>
-			</volist>
+              </div><?php endforeach; endif; else: echo "" ;endif; ?>
         </div>
 	
 	
 </body>
 </html>
-<script type="text/javascript" src="__PUBLIC__/Home/js/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="/Experiment/Public/Home/js/jquery-1.12.0.min.js"></script>
 <script type="text/javascript">
         $(document).ready(function(){
             $(".point li a").click(function(){
@@ -77,4 +73,3 @@
             });
         })
     </script>
-    

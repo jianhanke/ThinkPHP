@@ -69,5 +69,71 @@ class CourseController extends MyController{
 		return $info;
 	}
 
+	/*  纯PHP上传文件
+	public function uploadFile(){
+		
+
+		$student_id=session('user_id');
+
+		$chapter_id=I('post.chapter_id');
+		$postfix=strrchr($_FILES['file']['name'], '.');
+		$uploadPath='E:/wamp/apache/library/Experiment/Public/Upload/';
+		$new_name=$student_id.'_'.$chapter_id.$postfix;
+		$newPath=$uploadPath.$new_name;
+		$ROOT = $_SERVER['DOCUMENT_ROOT'];
+		move_uploaded_file($_FILES['file']['tmp_name'],$newPath);
+	}
+		*/
+		public function uploadFile(){
+			$student_id=session('user_id');	
+			$chapter_id=I('post.chapter_id');
+			$new_name=$student_id.'_'.$chapter_id;
+			$model=new \Home\Model\View_coursetochapterModel();
+			$info=$model->find_Chapter_Course($chapter_id);	
+			$chapter_name=$info['name'];
+			$course_name=$info['cname'];
+
+			$upload = new \Think\Upload();
+			$upload->rootPath = './Uploads/';  // ./ 代表 项目的根目录
+			$upload->savePath  = $course_name.'/'.$chapter_name."/";
+			$upload->exts      =     array('doc','docx');
+			$upload->saveName = $new_name;
+			$upload->autoSub  = false;    //禁止上传时候的时间目录
+			// $upload->subName  = array('date','Ymd');
+
+
+			$info   =   $upload->uploadOne($_FILES['file']);
+
+			if(!$info) {// 上传错误提示错误信息
+		        $this->error($upload->getError());
+		    }else{// 上传成功 获取上传文件信息
+		         echo $info['savepath'].$info['savename'];
+		    }
+			
+
+
+		}
+
+		
+
+		// if(!empty($_FILES['picture']['tmp_name'])){
+
+		// 		$postfix=strrchr($_FILES['picture']['name'], '.'); //最后一次出现在 . 从当前位置到结束
+		// 			$now_time=time();
+	 //   				$save='E:/wamp/apache/library/Public/books/' .$now_time."$postfix";
+	 //   				$new_name=$now_time.$postfix;
+
+	 //   				move_uploaded_file($_FILES['picture']['tmp_name'],$save);
+	    			
+	 //    			$new_thumb_path=$this->one_thumb($save,$new_name);
+		// 			$post['picture']=$save;
+		// 			$post['thumb_picture']=$new_thumb_path;
+
+		// 		}
+		
+		
+		
+	
+
 
 }
