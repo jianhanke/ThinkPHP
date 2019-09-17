@@ -110,7 +110,7 @@ a{
             <div class="con2" style="height: 90%;" >
                 <form action="{:U('NoVNC/saveNote')} " id="myForm" method="post"  style="height: 80%;"  target="hidden_iframe"  >
                   <script id="container"   name="myNote"  style="height: 100%;" scrolling="yes"> </script>
-                  <input type1="hidden"  name="id" value="{$id}" >
+                  <input type="hidden"  name="id" value="{$id}" >
                   <button type="button" style="background-color:#1E90FF;height: 8%;width: 10%;" onclick="submitNote()"   >保存</button>
                 </form>
                 <iframe name="hidden_iframe" style="display:none;"></iframe>
