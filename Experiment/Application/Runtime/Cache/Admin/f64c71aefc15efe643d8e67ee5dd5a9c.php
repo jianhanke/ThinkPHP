@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/Experiment/Public/Admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/Experiment/Public/Admin/css/main.css"/>
 </head>
 <body>
       <div class="search-wrap">
             <div class="search-content">
-                <form action="__CONTROLLER__/findOnlyContainerByLike" method="post">
+                <form action="/Experiment/index.php/Admin/Docker/findOnlyContainerByLike" method="post">
                     <table class="search-tab">
                         <tr>
                             <th width="120">搜索范围:</th>
@@ -41,29 +41,27 @@
                         <td>状态</td>
                         <th>操作</th>
                     </tr>
-                 <volist   name="datas" id="data">
-                    <tr>
-                        <td> {$data['id']}  </td>
-                        <td> {$data['container_id']}  </td>
-                        <td>  {$data['ip']}  </td>
-                        <td>  {$data['ip_num']}  </td>
-                        <td>   {$data['status']=='exited'? '<font color="red" > 关机 </font> ' : ' <font color="green" >  运行中 </font>  ' }   </td>
+                 <?php if(is_array($datas)): $i = 0; $__LIST__ = $datas;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
+                        <td> <?php echo ($data['id']); ?>  </td>
+                        <td> <?php echo ($data['container_id']); ?>  </td>
+                        <td>  <?php echo ($data['ip']); ?>  </td>
+                        <td>  <?php echo ($data['ip_num']); ?>  </td>
+                        <td>   <?php echo ($data['status']=='exited'? '<font color="red" > 关机 </font> ' : ' <font color="green" >  运行中 </font>  '); ?>   </td>
                         <td>
-                            <a class="link-del" href="__CONTROLLER__/startContainerById/container_id/{$data['container_id']}">开机</a>&nbsp;&nbsp;
+                            <a class="link-del" href="/Experiment/index.php/Admin/Docker/startContainerById/container_id/<?php echo ($data['container_id']); ?>">开机</a>&nbsp;&nbsp;
                            
-                            <a class="link-del" href="__CONTROLLER__/shutdownContainerById/container_id/{$data['container_id']}">关机</a>&nbsp;&nbsp;
+                            <a class="link-del" href="/Experiment/index.php/Admin/Docker/shutdownContainerById/container_id/<?php echo ($data['container_id']); ?>">关机</a>&nbsp;&nbsp;
 
-                             <a class="link-del" href="__CONTROLLER__/restartContainerById/container_id/{$data['container_id']}">重启</a>
+                             <a class="link-del" href="/Experiment/index.php/Admin/Docker/restartContainerById/container_id/<?php echo ($data['container_id']); ?>">重启</a>
 
 
                         </td>
-                    </tr>
-                 </volist>  
+                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>  
 
                     <tr>
                 
                 </table>
-                <div class="list-page"> {$count} 条 1/1 页</div>
+                <div class="list-page"> <?php echo ($count); ?> 条 1/1 页</div>
             </div>
         </div>
 </body>

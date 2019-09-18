@@ -1,15 +1,15 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/common.css"/>
-    <link rel="stylesheet" type="text/css" href="__PUBLIC__/Admin/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/Experiment/Public/Admin/css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="/Experiment/Public/Admin/css/main.css"/>
 </head>
 <body>
       <div class="search-wrap">
             <div class="search-content">
-                <form action="__CONTROLLER__/findContainerByLike" method="post">
+                <form action="/Experiment/index.php/Admin/Docker/findContainerByLike" method="post">
                     <table class="search-tab">
                         <tr>
                             <th width="120">搜索范围:</th>
@@ -52,29 +52,27 @@
                         <th>Host_ip</th>
                         <th>修改</th>
                     </tr>
-                 <volist   name="datas" id="data">
-                    <tr>
-                        <td> {$data['id']}  </td>
-                        <td> {$data['container_id']}  </td>
-                        <td>  {$data['student_id']}  </td>
-                        <td>   {$data['sname']}  </td>
-                        <td>  {$data['ip']} </td>
-                        <td>  {$data['image_id']}     </td>
-                        <td>  {$data['name']}  </td>
-                        <td>   {$data['eid']}  </td>
-                        <td>   {$data['ename']}   </td>
-                        <td>   {$data['ip_num']}  </td>
+                 <?php if(is_array($datas)): $i = 0; $__LIST__ = $datas;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$data): $mod = ($i % 2 );++$i;?><tr>
+                        <td> <?php echo ($data['id']); ?>  </td>
+                        <td> <?php echo ($data['container_id']); ?>  </td>
+                        <td>  <?php echo ($data['student_id']); ?>  </td>
+                        <td>   <?php echo ($data['sname']); ?>  </td>
+                        <td>  <?php echo ($data['ip']); ?> </td>
+                        <td>  <?php echo ($data['image_id']); ?>     </td>
+                        <td>  <?php echo ($data['name']); ?>  </td>
+                        <td>   <?php echo ($data['eid']); ?>  </td>
+                        <td>   <?php echo ($data['ename']); ?>   </td>
+                        <td>   <?php echo ($data['ip_num']); ?>  </td>
                         <td>
                             
-                            <a class="link-del" href="__CONTROLLER__/deleteContainerById/container_id/{$data['container_id']}/eid/{$data['eid']}/user_id/{$data['student_id']}">删除</a>
+                            <a class="link-del" href="/Experiment/index.php/Admin/Docker/deleteContainerById/container_id/<?php echo ($data['container_id']); ?>/eid/<?php echo ($data['eid']); ?>/user_id/<?php echo ($data['student_id']); ?>">删除</a>
                         </td>
-                    </tr>
-                 </volist>  
+                    </tr><?php endforeach; endif; else: echo "" ;endif; ?>  
 
                     <tr>
                 
                 </table>
-                <div class="list-page"> 共 {$count} 条 </div>
+                <div class="list-page"> 共 <?php echo ($count); ?> 条 </div>
             </div>
         </div>
 </body>
