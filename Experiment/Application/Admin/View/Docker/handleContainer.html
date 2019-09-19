@@ -47,7 +47,7 @@
                         <td> {$data['container_id']}  </td>
                         <td>  {$data['ip']}  </td>
                         <td>  {$data['ip_num']}  </td>
-                        <td>   {$data['status']=='exited'? '<font color="red" > 关机 </font> ' : ' <font color="green" >  运行中 </font>  ' }   </td>
+                        <td>   {$data['status']=='exited'? '<font color="green" > 运行中 </font> ' : ' <font color="red" >  关机 </font>  ' }   </td>
                         <td>
                             <a class="link-del" href="__CONTROLLER__/startContainerById/container_id/{$data['container_id']}">开机</a>&nbsp;&nbsp;
                            

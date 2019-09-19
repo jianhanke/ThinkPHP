@@ -116,6 +116,8 @@ class CourseController extends MyController{
 
 		
 
+		
+
 		// if(!empty($_FILES['picture']['tmp_name'])){
 
 		// 		$postfix=strrchr($_FILES['picture']['name'], '.'); //最后一次出现在 . 从当前位置到结束

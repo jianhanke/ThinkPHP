@@ -30,4 +30,9 @@ class StudentModel extends Model{
 		return $this->where("$search like '%$keywords%'")->count();
 	}
 
+	public function add_Student($data){
+		dump($this->add($data));
+	}
+
+
 }
