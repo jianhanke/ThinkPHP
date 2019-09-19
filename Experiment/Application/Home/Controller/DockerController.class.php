@@ -24,7 +24,7 @@ class DockerController extends MyController{
 		if($is_exist){     //找到实验id,查出实验索要的镜像id,根据user_id和iamge_id 查出容器id,并开启
 							
 			$image_id=$model->find_ImageId_By_experimentId($experimentId);
-			
+			dump($image_id);
 			$container_id=$model3->find_Container_By_UserId($user_id,$image_id);
 
 			$docker=new \Home\Controller\Entity\Docker();
@@ -33,6 +33,7 @@ class DockerController extends MyController{
 
 			
 			$ip_num=$model3->find_Ip_id($user_id,$image_id);
+			dump($ip_num);
 			// dump('ipnum:'.$ip_num);
 			// echo "<script> top.location.href='http://localhost:6080/vnc.html?path=/websockify?token=host$ip_num' </script> ";
 			
@@ -109,11 +110,12 @@ class DockerController extends MyController{
 		$docker->stopContainerById($container_id);
 
 		// echo "<script> top.location.href='http://localhost:6080/vnc.html?path=/websockify?token=host$ip_num' </script> ";
-		$noVNC=new \Home\Controller\Entity\NoVNC();
-		$noVNC->JumpUrlByIp($ip_num);
+		// $noVNC=new \Home\Controller\Entity\NoVNC();
+		// $noVNC->JumpUrlByIp($ip_num);
 		exit();
 
 	}
+
 
 
 	/*
