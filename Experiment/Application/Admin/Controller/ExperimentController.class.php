@@ -3,7 +3,7 @@
 namespace Admin\Controller;
 use Think\Controller;
 
-class ExperimentController extends Controller{
+class ExperimentController extends MyController{
 
 	public function showExperiment(){
 		$model=D('Experiment');

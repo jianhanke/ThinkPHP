@@ -59,7 +59,6 @@ class DockerController extends MyController{
 	public function deleteImageById(){
 
 		$image_id=I('get.image_id');
-
 		$model=new \Admin\Model\Docker_imageModel();
 		$model->delete_Image_By_Id($image_id);
 		$this->redirect('showImage');

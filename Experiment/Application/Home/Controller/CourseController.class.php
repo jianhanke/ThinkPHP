@@ -109,33 +109,7 @@ class CourseController extends MyController{
 		    }else{// 上传成功 获取上传文件信息
 		         echo $info['savepath'].$info['savename'];
 		    }
-			
-
-
 		}
-
-		
-
-		
-
-		// if(!empty($_FILES['picture']['tmp_name'])){
-
-		// 		$postfix=strrchr($_FILES['picture']['name'], '.'); //最后一次出现在 . 从当前位置到结束
-		// 			$now_time=time();
-	 //   				$save='E:/wamp/apache/library/Public/books/' .$now_time."$postfix";
-	 //   				$new_name=$now_time.$postfix;
-
-	 //   				move_uploaded_file($_FILES['picture']['tmp_name'],$save);
-	    			
-	 //    			$new_thumb_path=$this->one_thumb($save,$new_name);
-		// 			$post['picture']=$save;
-		// 			$post['thumb_picture']=$new_thumb_path;
-
-		// 		}
-		
-		
-		
-	
 
 
 }
